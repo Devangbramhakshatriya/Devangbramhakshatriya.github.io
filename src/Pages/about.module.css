@@ -1,0 +1,13 @@
+.background_image{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST4r6EjgcMXZVzzWr2qdazQ8uPOZ3xORDbNkp_DCSR0SyrWht1K3PaPpZvg_fMU3OWvVg&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+@media all and (min-width:250px) and (max-width:550px){
+    .background_image{
+        background-size:100%;
+        
+    }
+}
