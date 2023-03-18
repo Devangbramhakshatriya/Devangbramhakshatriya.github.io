@@ -43,9 +43,6 @@ import {
             </DrawerBody>
   
             <DrawerFooter>
-              <Button variant='outline' mr={3} onClick={onClose}>
-                Cancel
-              </Button>
             </DrawerFooter>
           </DrawerContent>
         </Drawer>

@@ -11,6 +11,8 @@ import { extendTheme } from '@chakra-ui/react'
 import SideDrawer, { Sidebar } from "./SideDrawer"
 import Calendar from "../Pages/Calendar"
 import Stats from "../Pages/Stats"
+import {BsDownload} from "react-icons/bs"
+import { createElement } from "react"
 const breackpoints={
     base:"420px",
     sm:"550px",
@@ -22,14 +24,16 @@ const breackpoints={
 
 const theme=extendTheme({breackpoints})
 function Navbar() {
+    // const at=createElement('a')
+    // at.setAttribute('download','Devang-Bramhakshatriya-Resume.pdf')
     const [isnavlessthan500]=useMediaQuery('(max-width: 550px)')
     return (
         <Box >
-            <Box p="5px" id="nav-menu" bg="#BECAD8" position="fixed" top="0" display="flex" w="100%" justifyContent="space-around">
+            <Box zIndex="1000" p="5px" id="nav-menu" bg="#B6B0B0" position="fixed" top="0" display="flex" w="100%" justifyContent="space-around">
                 <Box fontSize={["10px","20px","30px","35px","40px","45px"]} className="nav-link resume">
-                    <Link  id="resume-link-1" href="https://drive.google.com/file/d/1qpVsjmoE0wzYBLxoXSD1aBJtNVR1e7kU/view?usp=sharing" target={"_blank"}>
-                    <Button  id="resume-button-1" bg="blue.100">Resume</Button>
-                    </Link>
+                    <a  id="resume-link-1" href="../download/Devang-Bramhakshatriya-Resume.pdf"  target={"_blank"} download>
+                    <Button gap="10px" id="resume-button-1" bg="#777777" _hover={{bg:"#6D6A6A"}}>Resume <BsDownload /></Button>
+                    </a>
                 </Box>
                 {
                     isnavlessthan500? 
@@ -37,7 +41,7 @@ function Navbar() {
                     
                     :
                     <Box fontFamily="ubuntu" alignItems="center" display="flex" gap={["5px","8px","20px","22px","22px","22px","22px"]} fontSize={["20px","22px","23px","25px","28px","30px","32px"]} fontWeight="bold" textDecoration="underline">
-                    <ScrollLink to={"home"}  smooth={true} offset={-200} duration={700}>Home</ScrollLink>
+                    <ScrollLink to={"home"}  smooth={true} offset={-60} duration={700}>Home</ScrollLink>
                     <ScrollLink to={"about"} smooth={true} offset={-60} duration={400}>About</ScrollLink>
                     <ScrollLink to={"skills"} smooth={true} offset={-60} duration={400}>Skills</ScrollLink>
                     <ScrollLink to={"projects"} smooth={true} offset={-60} duration={400}>Projects</ScrollLink>

@@ -1,6 +1,6 @@
 import {Box, Button, Image, Link, Text} from "@chakra-ui/react"
 import styles from "./about.module.css"
-
+import {BsDownload} from "react-icons/bs"
 function About(){
     return(
         <Box className="nav-link about" >
@@ -12,11 +12,11 @@ function About(){
             </Box>
             <Box w={["100%","50%","50%","50%","50%","50%"]} >
                 <Text textAlign="start" fontSize={["15px","30px","30px","35px","45px","55px"]}>I'm Devang Bramhakshatriya</Text>
-                <Text id="user-detail-intro" mt={["8px","10px","15px","20px","20px","20px"]} textAlign="start" fontSize={["11px","15px","18px","22px","25px","27px"]}>A full Stack Web Developer With Peoblem Solveing mindset. have a passion to create useful projects and systems which can contribute in everyone's wellbeing. I go to full extent in execution. </Text>
+                <Text id="user-detail-intro" mt={["8px","10px","15px","20px","20px","20px"]} textAlign="start" fontSize={["11px","15px","18px","22px","25px","27px"]}>A full Stack Web Developer With Peoblem Solveing mindset with various web technologies including HTML, CSS, JS and ReactJS. have a passion to create useful projects and systems which can contribute in everyone's wellbeing. I go to full extent in execution. </Text>
                 <Box pt={["5%","6%","6%"]} fontSize={["10px","20px","30px","35px","40px","45px"]} className="nav-link resume">
-                    <Link id="resume-link-2" href="https://drive.google.com/file/d/1qpVsjmoE0wzYBLxoXSD1aBJtNVR1e7kU/view?usp=sharing" target={"_blank"}>
-                    <Button id="resume-button-2" bg="blue.100">Resume</Button>
-                    </Link>
+                    <a id="resume-link-2" href="../download/Devang-Bramhakshatriya-Resume.pdf" target={"_blank"} download>
+                    <Button id="resume-button-2" bg="#B5C1CF" _hover={{bg:"#AFB9C6"}} gap="10px">Resume <BsDownload /></Button>
+                    </a>
                 </Box>
             </Box>
         </Box>

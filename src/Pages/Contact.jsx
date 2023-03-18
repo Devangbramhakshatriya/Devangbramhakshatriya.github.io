@@ -26,7 +26,7 @@ const breackpoints = {
 const theme = extendTheme({ breackpoints })
 function Contact() {
     return (
-        <Box bg="#111111" className="nav-link contact" color="white">
+        <Box bg="#111111" className="nav-link contact" color="white" mt="20px">
             <Box  w="100%" pt={["10px", "15px", "20px", "25px", "30px", "30px"]} >
                 <Text fontFamily="ubuntu" textDecoration="underline" fontSize={["15px", "25px", "40px", "40px", "50px", "50px"]}>Contact Me</Text>
                 <Box
