@@ -31,7 +31,9 @@ function Navbar() {
         <Box >
             <Box zIndex="1000" p="5px" id="nav-menu" bg="#B6B0B0" position="fixed" top="0" display="flex" w="100%" justifyContent="space-around">
                 <Box fontSize={["10px","20px","30px","35px","40px","45px"]} className="nav-link resume">
-                    <a  id="resume-link-1" href="../download/Devang-Bramhakshatriya-Resume.pdf"  target={"_blank"} download>
+                    <a  id="resume-link-1" href="https://drive.google.com/uc?export=download&id=1qpVsjmoE0wzYBLxoXSD1aBJtNVR1e7kU" onClick={()=>{
+                        window.open("https://drive.google.com/file/d/1qpVsjmoE0wzYBLxoXSD1aBJtNVR1e7kU/view?usp=sharing")
+                    }}  download>
                     <Button gap="10px" id="resume-button-1" bg="#777777" _hover={{bg:"#6D6A6A"}}>Resume <BsDownload /></Button>
                     </a>
                 </Box>

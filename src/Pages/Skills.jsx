@@ -19,11 +19,11 @@ const skills = [
     { id:"4", image: "https://img.icons8.com/plasticine/2x/react.png", title: "ReactJS" },
     { id:"5", image: "https://img.icons8.com/color/2x/redux.png", title: "Redux" },
     { id:"6", image: "https://img.icons8.com/fluency/2x/node-js.png", title: "NodeJS" },
-    { id:"7", image: "https://cdn.iconscout.com/icon/free/png-64/express-8-1175029.png", title: "ExpressJS" },
+    { id:"7", image: "https://www.excellmetalspinning.com/wp-content/uploads/2022/02/Excell-Metal-Spinning-Logo-2020-Small-filled-blue.png", title: "ExpressJS" },
     { id:"8", image: "https://img.icons8.com/color/2x/mongodb.png", title: "Mongodb" },
     { id:"9", image: "https://img.icons8.com/color/2x/chakra-ui.png", title: "Chakra-UI" },
     { id:"10", image: "https://img.icons8.com/fluency/2x/typescript.png", title: "TypeScript" },
-    { id:"11", image: "https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png", title: "NextJS" },
+    { id:"11", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWmbqMA0xoE1ibgbLRk-0mf8JJFkpJ7ah_oiweOE_JFKr6zxXh7jIKuZ220m0e5o8IaoA&usqp=CAU", title: "Cypress" },
     { id:"12", image: "https://img.icons8.com/color/2x/git.png", title: "Git" },
 ]
 
