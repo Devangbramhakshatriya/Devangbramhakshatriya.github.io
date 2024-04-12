@@ -1,5 +1,6 @@
 .background_image{
     background-image: url("https://www.visualcv.com/static/0fa4fd1342ae70b16bbe8ebcf3d56fb9/1ebf6/pexels-cottonbro-3584994__1_.jpg");
+    /* https://www.visualcv.com/static/0fa4fd1342ae70b16bbe8ebcf3d56fb9/1ebf6/pexels-cottonbro-3584994__1_.jpg */
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -7,6 +8,6 @@
 @media all and (min-width:250px) and (max-width:550px){
     .background_image{
         background-size: 100%;
-        
+
     }
 }

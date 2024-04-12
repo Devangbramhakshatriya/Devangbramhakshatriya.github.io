@@ -10,4 +10,7 @@
         background-size:100%;
         
     }
+    .background_color{
+        background: linear-gradient(to bottom, #e7e6e6, #aaaaaaad, #adababa8, #8f8f8f);
+    }
 }

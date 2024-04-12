@@ -16,13 +16,13 @@ const breackpoints={
 const theme=extendTheme({breackpoints})
 function Home(){
     return(
-        <Box className="nav-link home">
+        <Box className="nav-link home" >
         <Box w="100%" h={["240px","350px","500px","680px","680px","800px"]} className={styles.background_image}  display="flex" color="black" >
-            <Box mt={["20%","20%","20%","15%","14%","14%"]} ml="2%" textAlign="start" fontWeight="bold">
+            <Box mt={["20%","20%","20%","15%","14%","14%"]} ml="2%" textAlign="start" fontWeight="bold" color="Black">
             <Text fontFamily="unset" id="user-detail-name" fontSize={["15px","20px","35px","40px","50px","50px"]}>Hello, I'm</Text>
-            <Text fontFamily="unset" id="user-detail-name" fontSize={["20px","30px","45px","50px","60px","60px"]}> Devang Bramhakshatriya</Text>
+            <Text fontFamily="unset" id="user-detail-name" fontSize={["20px","30px","45px","50px","55px","55px"]}> Devang Bramhakshatriya</Text>
             {/* <Text color="red" fontSize={["13px","15px","22px","25px","28px","30px"]}>a</Text> */}
-            <Text fontSize={["15px","30px","30px","30px","40px","50px"]} color="#2E345A" fontFamily="Rye">
+            <Text fontSize={["15px","30px","30px","30px","40px","50px"]} color="#464F7F" fontFamily="Rye">
             <Typewriter fontSize="30px"
             onInit={(type)=>{
                 type
